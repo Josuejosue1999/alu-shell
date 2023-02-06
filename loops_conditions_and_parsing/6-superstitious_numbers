@@ -16,5 +16,5 @@ while [ "$luck" -le 20 ]; do
         echo "$luck"
         ;;
     esac
-    luck=$((luck +1));
+    luck="$((luck +1))"
 done
