@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#This script displays numbers from 1 to 20 and
+luck=1;
+while [ "$luck" -le 20 ]; do
+    case "$luck" in 
+      4)
+        echo -e "$luck \nbad luck from china"
+        ;;
+      9)
+        echo -e "$luck \nbad luck from Japan"
+        ;;
+      17)
+        echo -e "$luck \nbad luck from Italy"
+        ;;
+      *)
+        echo "$luck"
+        ;;
+    esac
+    luck=$((luck +1));
+done
