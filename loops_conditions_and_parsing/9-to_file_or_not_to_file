@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# alx school file checker
+# information about the school file
 file="school"
 if [ -e "$file" ]; then
   echo "school file exists"
